@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import FilteredProductList from '../containers/FilteredProductList'
 const App = () => (
   <Container className="App">
-  	<Header />
+    <Header />
     <FilteredProductList />
   </Container>
 )
