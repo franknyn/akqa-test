@@ -1,12 +1,12 @@
 import './App.css'
 import React from 'react'
 import { Container } from 'reactstrap'
-import ProductList from './ProductList'
-import Data from '../products.json'
-
+import Header from '../components/Header'
+import FilteredProductList from '../containers/FilteredProductList'
 const App = () => (
   <Container className="App">
-    <ProductList products={Data}/>
+  	<Header />
+    <FilteredProductList />
   </Container>
 )
 export default App
