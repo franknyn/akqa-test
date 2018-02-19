@@ -7,3 +7,10 @@ export const getProducts = () => {
         payload: Data
     }
 }
+
+export const setProductFilter = (filter) => {
+    return {
+        type: Constants.SET_PRODUCT_FILTER,
+        filter
+    }
+}
